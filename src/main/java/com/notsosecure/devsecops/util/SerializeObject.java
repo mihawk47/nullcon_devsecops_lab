@@ -31,7 +31,7 @@ public class SerializeObject {
 	}
 
 // VULNERABLE CODE
-	 public static Object stringToObject(String s) {
+/*	 public static Object stringToObject(String s) {
 
 	 	byte[] data = Base64Utils.decodeByte(s);
 	 	ObjectInputStream ois;
@@ -53,12 +53,12 @@ public class SerializeObject {
 	 	System.out.println(o.toString());
 	 	return o;
 	 }
+*/
+	 public static Object stringToObject(String s) {
 
-	// public static Object stringToObject(String s) {
+	return new StudentSer("goku");
 
-	// 	return new StudentSer("goku");
-
-	// }
+	 }
 
 	public static void deserializeCookie(HttpServletRequest servletRequest) {
 		Cookie[] cookies = null ;

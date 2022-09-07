@@ -34,9 +34,9 @@ public class StudentAddApi extends ActionSupport implements ServletResponseAware
 		Student student = (Student) xmlDecoder.readObject();
 //		Student student = new Student("test","test","test","test","test","test@test.com");
 //		System.out.println(student.getFirstName());
-		String result;
-		result=studentService.save(student.getUserName(), student.getPassword(), student.getFirstName(), student.getLastName(),
-				dateFormat.format(student.getDateOfBirth()), student.getEmailAddress());
+//		String result;
+//		result=studentService.save(student.getUserName(), student.getPassword(), student.getFirstName(), student.getLastName(),
+/*				dateFormat.format(student.getDateOfBirth()), student.getEmailAddress());
 		PrintWriter printWriter = servletResponse.getWriter();
 		switch (result) {
 		case "SignupFailure-UserNameExists":
@@ -54,7 +54,7 @@ public class StudentAddApi extends ActionSupport implements ServletResponseAware
 
 		return NONE;
 	}
-
+*/
 	@Override
 	public void setServletRequest(HttpServletRequest request) {
 		this.servletRequest = request;
