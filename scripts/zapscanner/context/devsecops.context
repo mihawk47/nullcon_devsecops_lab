@@ -44,9 +44,9 @@
             </form>
         </authentication>
         <users>
-            <user>143;true;YWRtaW5AYWRtaW4uY29t;2;YWRtaW5AYWRtaW4uY29t~YWRtaW4=~</user>
+            <user>user23;true;Ddp9Hlz0uVv2SQRn25SE;2;Ddp9Hlz0uVv2SQRn25SE</user>
         </users>
-        <forceduser>143</forceduser>
+        <forceduser>user23</forceduser>
         <session>
             <type>0</type>
         </session>
